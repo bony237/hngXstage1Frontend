@@ -1,0 +1,41 @@
+body,
+html {
+    height: 100vh;
+  margin: 0;
+  background: linear-gradient(90deg, rgba(134, 235, 25, 0.8) 0%, rgba(43, 190, 64, 0.8) 100%);
+}
+
+body * {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+}
+
+.custom-flex-center,
+.custom-flex-center-column,
+.custom-flex-center-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-flex-center-column {
+  flex-direction: column;
+}
+.custom-flex-center-row {
+  flex-direction: row;
+}
+
+.bg-frame {
+  height: 100%;
+}
+
+[data-testid="currentDayOfTheWeek"], [data-testid="myTrack"] {
+  text-transform: capitalize;
+}
+
+img {
+    border-radius: 1em;
+}
+
+
+
